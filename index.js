@@ -5,7 +5,7 @@ const client = new Discord.Client({
 })
 
 
-client.login(token);
+client.login(process.env.token);
 
 const fs = require("fs");
 
