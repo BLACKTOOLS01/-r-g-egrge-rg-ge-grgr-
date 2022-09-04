@@ -7,6 +7,7 @@ const client = new Discord.Client({
 
 client.login(process.env.token);
 
+
 const fs = require("fs");
 
 client.commands = new Discord.Collection();
