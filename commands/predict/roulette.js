@@ -19,7 +19,7 @@ module.exports = ({
 
 function Roulette() {
     var random = ['Red','Purple'];
-    return random[Math.floor(Math.random()*rand.length)];
+    return random[Math.floor(Math.random()*random.length)];
 }
 
 function Accuracy() {
